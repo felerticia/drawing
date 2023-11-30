@@ -1,0 +1,19 @@
+.App {
+  width: 800px;
+}
+
+canvas {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+button {
+  height: 50px;
+  flex: 1;
+}
